@@ -6,11 +6,25 @@
 <body>
   <script>
     // Your JavaScript goes here!
-    console.log("Hello, World!");
-    confirm("are you sure");
-    prompt("what's 5 + 5");
-    var newVar = 5;
-    console.log(newVar);
+    // console.log("Hello, World!");
+    // confirm("are you sure");
+    // prompt("what's 5 + 5");
+    // var newVar = 5;
+    // console.log(newVar);
+
+    var name;
+    var age;
+
+    function getInfo(name, age) {
+    	name = prompt("what's your name");
+    	age = prompt("what's your age");
+    }
+
+    getInfo(name, age);
+
+    output("your name is " + name);
+    output("you age is " + age);
+
   </script>
 </body>
 </html>
